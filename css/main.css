@@ -1,0 +1,42 @@
+/* Place custom styles below */
+html, body{
+    height: 100%; width: 100%; margin: 0;
+}
+#top {
+    width:100%;
+    min-height:50px;
+    background-color:#11aaff;
+    margin-bottom:20px;
+}
+
+
+#maincontent
+{
+    margin: auto;
+    width: 90%;
+    overflow-y:auto
+}
+
+.item {
+    width:300px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom:10px;
+    float:left;
+    padding:10px;
+    background-color: rgba(221,221,221,0.5);
+    border: 1px solid #ccc;
+    border-radius:3px;
+}
+
+.btn-delete-item{
+  cursor: pointer;
+}
+
+#footer {
+    width:100%;
+    min-height:100px;
+    background-color:#ccc;
+    position:relative;
+    margin-top:20px;
+}
